@@ -1,0 +1,3 @@
+load("//:repository.bzl", "repository")
+
+repository(name = "repository")

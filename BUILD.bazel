@@ -1,0 +1,6 @@
+genrule(
+    name = "genrule",
+    srcs = ["@repository"],
+    outs = ["out.txt"],
+    cmd = "ls -la external/repository > $(location out.txt)",
+)
